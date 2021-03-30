@@ -34,7 +34,7 @@ struct ContentView: View {
                             Image(systemName: "photo")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: geo.size.width * 0.7)
+                                .frame(width: geo.size.width * 0.7, height: geo.size.height * 0.7)
                                 .position(x: geo.size.width / 2, y: geo.size.height / 2)
                                 .foregroundColor(.secondary)
                         }
